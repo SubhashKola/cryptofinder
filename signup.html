@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign Up</title>
+    <style>
+      
+      body {
+        font-family: Arial, sans-serif;
+        background:linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(traxer-4PljbcYIzyE-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+        
+      }
+      form {
+        background-color: rgb(115, 160, 141);
+        padding: 45px;
+        border-radius: 10px;
+        width: 500px;
+        margin: 0 auto;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+      }
+      input[type="text"], input[type="email"], input[type="password"] {
+        width: 100%;
+        padding: 12px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        transition: border-color 0.3s ease-in-out;
+      }
+      input[type="text"]:hover, input[type="email"]:hover, input[type="password"]:hover {
+        border-color: #555;
+      }
+      input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus {
+        outline: none;
+        border-color: #4CAF50;
+      }
+      input[type="submit"] {
+        background-color: #2b11bd;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: right;
+        transition: background-color 0.3s ease-in-out;
+      }
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+      input[type="submit"]:active {
+        background-color: #3e8e41;
+      }
+      h1 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="index2.html" method="post">
+      <h1>Sign Up</h1>
+      <label for="username">firstname</label>
+      <input type="text" id="firstname" name="first name" placeholder="Enter your first Name" required>
+      <label for="username">lasttname</label>
+      <input type="text" id="lastname" name="last name" placeholder="Enter your last Name" required>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password" required>
+      <label for="password">Password</label>
+      <input type="password" id="password" name=" RE password" placeholder=" Reenter your password" required>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
