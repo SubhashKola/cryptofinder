@@ -23,7 +23,9 @@ main {
   background:linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(wallpaperflare.com_wallpaper.jpg);
     background-position: center;
     background-size: cover;
-    height: 120vh;
+    background-position: center;
+   min- height: 120vh;
+   min-width: 120vh; 
 }
 
 .search-container {
