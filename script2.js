@@ -42,6 +42,25 @@ function searchCoins() {
         { symbol: 'REN', name: 'Ren', price: 40 },
         { symbol: 'BAT', name: 'Basic Attention Token', price: 20 },
         { symbol: 'ZRX', name: '0x', price: 30 },
+        { symbol: 'AAVE', name: 'Aave', price: 400 },
+        { symbol: 'CRV', name: 'Curve DAO Token', price: 2 },
+{ symbol: 'SOL', name: 'Solana', price: 100 },
+{ symbol: 'FTT', name: 'FTX Token', price: 50 },
+{ symbol: 'MATIC', name: 'Polygon', price: 1.5 },
+{ symbol: 'XDC', name: 'XinFin Network', price: 0.3 },
+{ symbol: 'HNT', name: 'Helium', price: 10 },
+{ symbol: 'STX', name: 'Stacks', price: 1.5 },
+{ symbol: 'ONE', name: 'Harmony', price: 0.1 },
+{ symbol: 'CELO', name: 'Celo', price: 5 },
+{ symbol: 'ZIL', name: 'Zilliqa', price: 0.1 },
+{ symbol: 'LUNA', name: 'Terra', price: 30 },
+{ symbol: 'FTM', name: 'Fantom', price: 1 },
+{ symbol: 'IOI', name: 'Injective Protocol', price: 10 },
+{ symbol: 'ANKR', name: 'Ankr', price: 0.05 },
+{ symbol: 'KCS', name: 'KuCoin Token', price: 10 },
+{ symbol: 'CTK', name: 'CertiK', price: 2 },
+
+
     ];
 
     const affordableCoins = coins.filter(coin => coin.price <= amount);
